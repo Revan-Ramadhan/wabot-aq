@@ -1,4 +1,4 @@
-global.owner = ['6281515860089', '6281334177340'] // Put your number here
+global.owner = ['6285714897009', '6285714897009'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -33,4 +33,5 @@ fs.watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   delete require.cache[file]
   require(file)
+
 })
